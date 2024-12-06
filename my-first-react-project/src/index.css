@@ -14,7 +14,8 @@ body {
 }
 .navbar {
   width: 100vw;
-  position: fixed;  
+  position: fixed;
+  top: 0;  
 }
 .navtop {
   background-color: #666f94;
@@ -78,6 +79,9 @@ body {
   display: flex;
   /* justify-content: center; */
   align-items: center;
+}
+.content {
+  margin: 10rem 0 0 7rem;
 }
 /* .navlogo {
   width: 9rem;
