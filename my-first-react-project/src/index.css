@@ -5,20 +5,74 @@
 body {
   background-color: #202332;
   color: #747bff;
+  font-family: 'Anton SC';
 }
 .navbar {
-  width: 96vw;
+  width: 100vw;
+  position: fixed;  
+}
+.navtop {
   background-color: #3A405A;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  padding: 0 2vw;
+  font-weight: lighter;
+}
+.navbottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  border-bottom: 3px solid #3A405A;
+}
+.navtopleft {
+  margin: 0.6rem 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navtopright {
+  margin: 0 1.3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+}
+.navtop a {
+  color: #747bff;
+  text-decoration: none;
+}
+.icons {
+  color: #747bff;
+  height: 40px;
+  width: 40px;
+
+}
+.navtopleft-icons {
+  margin: 0 10px;
 }
 .navleft {
-  margin-left: 2rem;
+  /* background-color: red; */
+  height: 100vh;
+  position: fixed;
+  top: 3.4rem;
+  width: 4.5rem;
+  border-right: 3px solid #3A405A;
 }
-.navlogo {
+.bars-icon {
+  margin: 0.6rem 3.5rem 0.6rem 0.9rem;
+}
+.navbottomright {
+  margin: 0 1.3rem;
+}
+.navbottomleft {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+/* .navlogo {
   width: 9rem;
 }
 .navright {
@@ -50,4 +104,4 @@ body {
   border-radius: 50%;
   background-color: white;
   padding: 12px;
-}
+} */
